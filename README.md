@@ -3,7 +3,7 @@
 I worked with ChatGPT and tutor Mohammed Fauwaaz in a Tutor Session on BSC to complete this assignment.
 
 ## Overview
-Created a classification solution by refactoring code from provided SMS text classifcation solution into a function that constructed a linear Support Vector Classification (SVC) model. SVC model was trained on the SMS Spam Collection dataset and used to create a Gradio app, enabling users to test text messages, with feedback on whether the message is spam or not.
+Created a classification solution by refactoring code from provided SMS text classifcation solution into a function that constructed a Linear Support Vector Classification (SVC) model. SVC model was trained on the SMS Spam Collection dataset and used to create a Gradio app, enabling users to test text messages, with feedback on whether the message is spam or not.
 
 ## Methods
 **SMS Classification Function:** 
@@ -25,7 +25,7 @@ Created a classification solution by refactoring code from provided SMS text cla
         * `return f'The text message: "{text}", is spam.'`
 
 **Gradio Interface Application**
-* Created Gradio interface with textboxes and corresponding labels for what each textbox is contains:
+* Created Gradio interface with textboxes and corresponding labels for what each textbox contained:
     * `inputs=[gr.Textbox(label='What is the text message you want to test?')],`
 
     * `outputs=[gr.Textbox(label='Our app has determined that:')]`
